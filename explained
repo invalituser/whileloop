@@ -1,0 +1,54 @@
+# Look it is very easy to understand while loop. While loop is just simply repeats anything inside himself.
+# Lat's imagine this is our code -> 
+while () {
+  smth
+  smth
+  smth
+}
+# For now don't think about () these braсkets just focus on {} these one. These braсkets are like box and inside it we have 3 (smth) these 3 (smth) will be repeated infintly until ... Now look to () braсkets. 
+# If we have value: true in () braсkets, it means while loop works until inside it will be false value. 
+---------------------------------------------------------------------------------------------
+# Let's take this code: 
+---------------------------------------------------------------------------------------------
+        #include<iostream>
+        using namespace std;
+        int main(){
+        double number2;
+        while (true) {
+        cout << "Enter number2: "; cin >> number2; cout << number2;
+        if (number2 == 0) {
+        cout << "It is not possible to divide by 0. Please give a proper input.\n";
+        } 
+        else {
+        cout << "hi\n";         // This will just print "hi" and the loop continues.
+            }
+          }
+        }
+----------------------------------------------------------------------------------------------
+# Look at this also:
+---------------------------------------------------------------------------------------------- 
+        #include<iostream>
+        using namespace std;
+        int main(){
+        double number2;
+        while (true) {
+        cout << "Enter number2: "; cin >> number2; cout << number2;
+        if (number2 == 0) {
+        cout << "It is not possible to divide by 0. Please give a proper input.\n";
+          } 
+        else {
+          break;          // This will stop code whenever user enters none 0 value
+            }
+          }
+        }
+----------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
